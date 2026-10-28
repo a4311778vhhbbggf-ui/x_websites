@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0F19">
+  <meta name="description" content="X للمواقع — تصميم وتطوير مواقع الشركات والمتاجر الإلكترونية وصفحات الهبوط.">
+  <title>X للمواقع | تصميم وتطوير المواقع</title>
+  <style>
+    :root{--bg:#0b0f19;--bg2:#121a2a;--panel:#101827;--panel2:#162033;--gold:#f5c75a;--gold2:#e7b54c;--blue:#5cc8ff;--text:#f5f7fa;--muted:#b6c2d3;--line:rgba(255,255,255,.1);--shadow:0 20px 50px rgba(0,0,0,.3);--radius:22px;--container:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;background:radial-gradient(circle at 5% 0,rgba(92,200,255,.1),transparent 27%),radial-gradient(circle at 95% 45%,rgba(245,199,90,.09),transparent 28%),linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text);line-height:1.75}body.modal-open{overflow:hidden}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button,a,input,textarea,select{touch-action:manipulation}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--blue);outline-offset:3px}.container{width:min(var(--container),calc(100% - 32px));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(11,15,25,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:76px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;white-space:nowrap}.brand-mark{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(135deg,var(--gold),var(--blue));color:#07111f;font-weight:950;box-shadow:0 8px 22px #f5c75a30}.nav-links{display:flex;align-items:center;gap:20px;color:var(--muted);font-size:.95rem;font-weight:650}.nav-links a:hover{color:var(--text)}.nav-actions{display:flex;align-items:center;gap:10px}.lang-toggle{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px}.lang-btn{border:0;background:transparent;color:var(--muted);padding:7px 9px;border-radius:8px;cursor:pointer;font-weight:800}.lang-btn.active{background:#f5c75a20;color:var(--text)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:10px 18px;border-radius:12px;border:1px solid transparent;cursor:pointer;font-weight:800;transition:transform .2s,background .2s; text-align:center}.btn:hover{transform:translateY(-1px)}.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111827;box-shadow:0 12px 25px #f5c75a22}.btn-secondary{background:#ffffff08;color:var(--text);border-color:var(--line)}.btn-secondary:hover{background:#ffffff12}.menu-toggle{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;color:var(--text);font-size:1.35rem;cursor:pointer}.hero{padding:72px 0 44px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px}.eyebrow{display:inline-flex;gap:9px;align-items:center;padding:7px 14px;border:1px solid #5cc8ff40;background:#5cc8ff0d;color:var(--blue);border-radius:999px;font-size:.86rem;font-weight:750;margin-bottom:18px}.hero h1{font-size:clamp(2.35rem,5vw,4.5rem);line-height:1.13;letter-spacing:-.045em;margin:0 0 18px}.gradient-text{background:linear-gradient(135deg,#fff 5%,var(--gold) 45%,var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{max-width:650px;color:var(--muted);font-size:1.08rem;margin:0 0 24px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}.mini-stats{display:flex;flex-wrap:wrap;gap:10px}.stat-note{padding:8px 12px;border:1px solid var(--line);border-radius:12px;color:var(--muted);font-size:.9rem;background:#ffffff05}.hero-visual{position:relative;min-height:430px;display:grid;place-items:center}.panel-box{width:min(100%,490px);padding:20px;background:linear-gradient(180deg,#121a2af2,#0d111af2);border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow)}.screen{padding:16px;border:1px solid var(--line);border-radius:18px;background:#ffffff04}.screen-top,.site-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.screen-top{color:var(--muted);font-size:.9rem;font-weight:750;margin-bottom:18px}.dots{display:flex;gap:6px}.dots span{width:9px;height:9px;border-radius:50%;background:#ffffff30}.dots span:first-child{background:#ff5f57}.dots span:nth-child(2){background:#ffbd2e}.dots span:nth-child(3){background:#28c840}.site-card{padding:16px;margin-bottom:13px;border-radius:16px;border:1px solid #f5c75a35;background:linear-gradient(145deg,#f5c75a14,#5cc8ff08)}.site-card:last-child{margin-bottom:0}.site-top{font-weight:800}.pill{padding:3px 10px;border-radius:999px;background:#f5c75a18;color:var(--gold);border:1px solid #f5c75a30;font-size:.75rem}.mock-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:15px}.mock-grid span{height:65px;border-radius:11px;border:1px solid var(--line);background:linear-gradient(180deg,#ffffff0a,#ffffff02)}.muted{color:var(--muted)}.floating-card{position:absolute;inset-inline-start:0;bottom:20px;padding:12px 16px;border:1px solid #f5c75a40;border-radius:15px;background:#0c111df5;box-shadow:var(--shadow)}.floating-card small{display:block;color:var(--muted)}.floating-card strong{font-size:1.25rem;color:var(--gold)}section.content-section{padding:36px 0}.section-header{display:flex;align-items:end;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-bottom:22px}.section-header h2{font-size:clamp(1.8rem,3.3vw,2.65rem);letter-spacing:-.035em;margin:0}.section-header p{margin:0;color:var(--muted)}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.feature-card,.price-card,.portfolio-card,.quote{background:#ffffff05;border:1px solid var(--line);border-radius:20px}.feature-card{padding:22px}.icon{width:48px;height:48px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(135deg,#f5c75a22,#5cc8ff20);font-size:1.45rem;margin-bottom:13px}.feature-card h3,.portfolio-body h3{margin:0 0 7px;font-size:1.12rem}.feature-card p,.portfolio-body p{margin:0;color:var(--muted);font-size:.95rem}.pricing{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-top:28px;align-items:stretch}.price-card{position:relative;padding:25px;display:flex;flex-direction:column;min-height:430px}.price-card.featured{border-color:#f5c75a66;background:linear-gradient(180deg,#f5c75a12,#ffffff04)}.badge{position:absolute;top:-12px;inset-inline-start:20px;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111827;border-radius:999px;padding:4px 11px;font-size:.75rem;font-weight:900}.price-card h3{font-size:1.4rem;margin:8px 0}.price{display:flex;align-items:baseline;gap:8px;margin:4px 0 15px}.price strong{font-size:2.25rem;line-height:1.3}.price span{color:var(--muted);font-size:.9rem}.price-list{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:9px;color:var(--muted);flex:1}.price-list li{position:relative;padding-inline-start:22px}.price-list li:before{content:"✓";position:absolute;inset-inline-start:0;color:var(--gold);font-weight:900}.price-card .btn{width:100%;margin-top:auto}.notice{margin-top:14px;color:var(--muted);font-size:.86rem}.portfolio-grid,.testimonials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.portfolio-card{overflow:hidden}.portfolio-visual{height:170px;display:grid;place-items:center;background:linear-gradient(135deg,#5cc8ff1c,#f5c75a12),linear-gradient(135deg,#1d283a,#0b0f19);border-bottom:1px solid var(--line)}.browser-mock{width:80%;height:72%;border:1px solid #ffffff30;border-radius:12px;padding:10px;background:#0b0f19b8;box-shadow:0 12px 24px #0003}.browser-bar{height:8px;border-radius:99px;background:#ffffff20;margin-bottom:10px}.browser-line{height:8px;width:70%;background:#f5c75a55;border-radius:99px;margin:9px 0}.browser-blocks{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:14px}.browser-blocks span{height:35px;border-radius:6px;background:#5cc8ff20;border:1px solid #ffffff15}.portfolio-body{padding:17px}.portfolio-body .sample-label{display:inline-block;margin-top:12px;color:var(--gold);font-size:.8rem}.quote{padding:20px}.stars{color:var(--gold);letter-spacing:3px;margin-bottom:9px}.quote p{margin:0;color:var(--muted)}.review-note{margin-top:12px;font-size:.85rem;color:var(--muted)}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:28px;border:1px solid #f5c75a35;border-radius:24px;background:linear-gradient(135deg,#f5c75a13,#5cc8ff0d)}.cta-box h2{margin:0;font-size:clamp(1.55rem,3vw,2.25rem)}.cta-box p{margin:6px 0 0;color:var(--muted)}.footer{padding:25px 0 38px;color:var(--muted)}.footer-inner{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.modal{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;padding:16px;background:#03050ac9;overflow:auto}.modal.show{display:flex}.modal-card{width:min(690px,100%);max-height:min(92dvh,900px);overflow:auto;background:linear-gradient(180deg,#111827,#0c1220);border:1px solid var(--line);border-radius:22px;padding:23px;box-shadow:var(--shadow)}.modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.modal-head h2{margin:0;font-size:1.35rem}.close-btn{width:42px;height:42px;flex:0 0 auto;border-radius:12px;border:1px solid var(--line);background:#ffffff08;color:var(--text);font-size:1.45rem;cursor:pointer}.order-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.wide{grid-column:1/-1}.field label{font-weight:700;color:var(--muted);font-size:.92rem}.field input,.field textarea,.field select{width:100%;min-width:0;border:1px solid var(--line);background:#ffffff08;border-radius:11px;padding:12px;color:var(--text);outline:none}.field select option{background:#101827;color:#f5f7fa}.field input:focus,.field textarea:focus,.field select:focus{border-color:#f5c75a99;box-shadow:0 0 0 3px #f5c75a18}.field textarea{min-height:105px;resize:vertical}.form-actions{grid-column:1/-1;display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-top:4px}.form-status{grid-column:1/-1;margin:0;padding:10px 12px;border-radius:10px;font-size:.92rem}.form-status[hidden]{display:none}.form-status.error{background:#ff686817;border:1px solid #ff68684a;color:#ffc5c5}.form-status.info{background:#5cc8ff12;border:1px solid #5cc8ff40;color:#c7ecff}.form-status.success{background:#3fbd8318;border:1px solid #3fbd8350;color:#bdf4d7}.privacy-note{font-size:.82rem;color:var(--muted);grid-column:1/-1;margin:0}.menu-panel{display:none}
+    @media(max-width:960px){.hero-grid{grid-template-columns:1fr}.hero-visual{min-height:380px}.features{grid-template-columns:repeat(2,minmax(0,1fr))}.pricing{grid-template-columns:1fr}.price-card{min-height:0}.portfolio-grid,.testimonials{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-links{gap:12px}.nav-links a{font-size:.88rem}}
+    @media(max-width:700px){.nav{min-height:68px}.nav-links{display:none}.menu-toggle{display:inline-grid;place-items:center}.nav-actions{gap:7px}.nav-actions>.btn{padding-inline:12px}.menu-panel{padding:0 16px 14px;background:#0b0f19}.menu-panel.show{display:grid;gap:4px}.menu-panel a{padding:10px 12px;border-radius:9px;color:var(--muted)}.menu-panel a:hover{background:#ffffff0a;color:var(--text)}.hero{padding-top:46px}.hero-visual{min-height:340px}.panel-box{padding:13px}.floating-card{bottom:0}.features,.portfolio-grid,.testimonials{grid-template-columns:1fr}.section-header{align-items:start;flex-direction:column}.cta-box{align-items:stretch;flex-direction:column}.cta-box .btn{width:100%}.order-form{grid-template-columns:1fr}.field.wide,.form-actions,.privacy-note,.form-status{grid-column:1}.modal{padding:9px}.modal-card{padding:17px;max-height:94dvh}.form-actions .btn{flex:1}.mini-stats{display:grid}.mini-stats>*{width:fit-content}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  
+/* Portfolio image sizing fix */
+.portfolio-visual {
+    height: 240px;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    display: block;
+}
+.portfolio-body {
+    min-height: 145px;
+}
+.portfolio-body h3 {
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+    .portfolio-visual {
+        height: 190px;
+    }
+    .portfolio-body {
+        padding: 12px;
+        min-height: 150px;
+    }
+}
+
+
+/* Developer contact */
+.developer-top-contact { white-space: nowrap; }
+.developer-contact-box { align-items: center; }
+.developer-contact-actions { display:flex; gap:10px; flex-wrap:wrap; }
+.developer-phone { font-size:1.15rem; font-weight:800; letter-spacing:.04em; }
+.developer-payment-note { width:100%; margin:0; color:var(--muted); font-size:.88rem; }
+@media (max-width:700px) {
+  .developer-top-contact { display:none; }
+  .developer-contact-box { align-items:stretch; }
+  .developer-contact-actions { flex-direction:column; }
+  .developer-contact-actions .btn { width:100%; }
+}
+
+</style>
+
+<style id="form-usability-improvements">
+.order-form .field label {display:block;margin-bottom:8px;font-weight:600;line-height:1.7}
+.order-form input,.order-form select,.order-form textarea {box-sizing:border-box;max-width:100%;min-height:46px;line-height:1.7}
+.order-form textarea {min-height:120px;resize:vertical}
+.order-form input:focus-visible,.order-form select:focus-visible,.order-form textarea:focus-visible,.order-form button:focus-visible {outline:2px solid #7c8cff;outline-offset:2px}
+.order-form button:disabled {opacity:.7;cursor:wait}
+@media(max-width:600px){.order-form .field{min-width:0}.order-form input,.order-form select,.order-form textarea{width:100%;font-size:16px}.order-form .form-actions{gap:10px;flex-wrap:wrap}.order-form .form-actions button{min-height:46px}}
+</style>
+
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="X للمواقع - الرئيسية"><span class="brand-mark">X</span><span data-i18n="brand">X للمواقع</span></a>
+      <nav class="nav-links" aria-label="التنقل الرئيسي">
+        <a href="#features" data-i18n="navFeatures">المزايا</a><a href="#packages" data-i18n="navPackages">الباقات</a><a href="#portfolio" data-i18n="navPortfolio">نماذج التصميم</a><a href="#contact" data-i18n="navContact">تواصل</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-toggle" aria-label="Language"><button type="button" class="lang-btn active" data-lang="ar" aria-pressed="true">AR</button><button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button></div>
+        <button type="button" class="btn btn-primary" data-open-modal data-i18n="ctaOrder">اطلب الآن</button>
+        <a class="btn btn-secondary developer-top-contact"
+           href="https://wa.me/201119064858"
+           target="_blank" rel="noopener noreferrer"
+           data-i18n="developerContactBtn">تواصل مع المطوّر</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+      </div>
+    </div>
+    <nav class="menu-panel" id="mobileMenu" aria-label="التنقل على الهاتف">
+      <a href="#features" data-i18n="navFeatures">المزايا</a><a href="#packages" data-i18n="navPackages">الباقات</a><a href="#portfolio" data-i18n="navPortfolio">نماذج التصميم</a><a href="#contact" data-i18n="navContact">تواصل</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero"><div class="container hero-grid">
+      <div>
+        <div class="eyebrow">✦ <span data-i18n="eyebrow">تصميم مواقع • تطوير مخصص • تجربة واضحة</span></div>
+        <h1><span data-i18n="heroTitle1">نصنع لك</span><br><span class="gradient-text" data-i18n="heroTitle2">موقعًا يعبّر عن مشروعك</span></h1>
+        <p class="lead" data-i18n="heroText">تصميم وتطوير مواقع للشركات والخدمات والمتاجر الإلكترونية، مع توضيح نطاق العمل قبل البدء.</p>
+        <div class="hero-actions"><button type="button" class="btn btn-primary" data-open-modal data-i18n="ctaPrimary">اطلب عرض سعر</button><a href="#packages" class="btn btn-secondary" data-i18n="ctaSecondary">استعرض الباقات</a></div>
+        <div class="mini-stats"><div class="stat-note" data-i18n="stat1">باقات واضحة قابلة للتخصيص</div><div class="stat-note" data-i18n="stat2">التفاصيل النهائية تُتفق قبل التنفيذ</div></div>
+      </div>
+      <div class="hero-visual" aria-label="معاينة توضيحية لتصميم موقع"><div class="panel-box"><div class="screen">
+        <div class="screen-top"><div class="dots"><span></span><span></span><span></span></div><span data-i18n="screenTitle">معاينة واجهة موقع</span></div>
+        <div class="site-card"><div class="site-top"><span data-i18n="siteTitle">موقع أعمال</span><span class="pill" data-i18n="siteBadge">تصميم مخصص</span></div><div class="muted" data-i18n="siteText">تنسيق واضح وتجربة استخدام مناسبة</div><div class="mock-grid"><span></span><span></span><span></span></div></div>
+        <div class="site-card"><div class="site-top"><span data-i18n="reportTitle">أقسام منظمة</span><span class="pill">UI</span></div><div class="mock-grid"><span></span><span></span><span></span></div></div>
+      </div></div><div class="floating-card"><small data-i18n="floatingLabel">مصمم لاحتياج مشروعك</small><strong data-i18n="floatingValue">فكرة ← موقع</strong></div></div>
+    </div></section>
+
+    <section class="content-section" id="features"><div class="container"><div class="section-header"><h2 data-i18n="featuresTitle">ماذا ستحصل عليه؟</h2><p data-i18n="featuresSub">أساسيات مهمة لموقع واضح وسهل الاستخدام</p></div>
+      <div class="features">
+        <article class="feature-card"><div class="icon">⚡</div><h3 data-i18n="f1Title">تنفيذ منظم</h3><p data-i18n="f1Text">تحديد المتطلبات ونطاق العمل قبل بدء التطوير.</p></article>
+        <article class="feature-card"><div class="icon">🎨</div><h3 data-i18n="f2Title">تصميم متناسق</h3><p data-i18n="f2Text">ألوان وخطوط وتنسيق يناسب طبيعة المشروع.</p></article>
+        <article class="feature-card"><div class="icon">📱</div><h3 data-i18n="f3Title">دعم الشاشات</h3><p data-i18n="f3Text">واجهة تتكيف مع الهاتف والتابلت والكمبيوتر.</p></article>
+        <article class="feature-card"><div class="icon">🧩</div><h3 data-i18n="f4Title">تخصيص حسب الحاجة</h3><p data-i18n="f4Text">يمكن مناقشة الوظائف المطلوبة قبل تحديد السعر النهائي.</p></article>
+      </div>
+    </div></section>
+
+    <section class="content-section" id="packages"><div class="container"><div class="section-header"><h2 data-i18n="packagesTitle">باقات مبدئية</h2><p data-i18n="packagesSub">الأسعار ونطاق العمل يحتاجان تأكيدًا قبل الاتفاق</p></div>
+      <div class="pricing">
+        <article class="price-card"><h3 data-i18n="p1Name">Starter</h3><div class="price"><strong>99</strong><span data-i18n="currency">ج.م</span></div><ul class="price-list"><li data-i18n="p1i1">صفحة رئيسية</li><li data-i18n="p1i2">حتى 3 صفحات إضافية</li><li data-i18n="p1i3">تصميم متجاوب</li><li data-i18n="p1i4">تهيئة أساسية لعناصر SEO</li></ul><button type="button" class="btn btn-secondary" data-open-modal data-service="website" data-i18n="p1Btn">استفسر عن الباقة</button></article>
+        <article class="price-card featured"><span class="badge" data-i18n="featuredBadge">خيار متقدم</span><h3 data-i18n="p2Name">Business</h3><div class="price"><strong>599</strong><span data-i18n="currency">ج.م</span></div><ul class="price-list"><li data-i18n="p2i1">موقع تعريفي لنشاط تجاري</li><li data-i18n="p2i2">أقسام حسب الاتفاق</li><li data-i18n="p2i3">نموذج تواصل</li><li data-i18n="p2i4">تحديد الدعم بعد الاتفاق</li></ul><button type="button" class="btn btn-primary" data-open-modal data-service="website" data-i18n="p2Btn">اطلب عرض سعر</button></article>
+        <article class="price-card"><h3 data-i18n="p3Name">E-Commerce</h3><div class="price"><strong>999</strong></div><span data-i18n="currency">ج.م</span><ul class="price-list"><li data-i18n="p3i1">واجهة متجر إلكتروني</li><li data-i18n="p3i2">تحديد خيارات السلة والدفع</li><li data-i18n="p3i3">واجهة عرض المنتجات</li><li data-i18n="p3i4">التكاملات والتكاليف الخارجية تُحدد منفصلًا</li></ul><button type="button" class="btn btn-secondary" data-open-modal data-service="ecommerce" data-i18n="p3Btn">ناقش متجرك</button></article>
+      </div>
+      <p class="notice" data-i18n="priceNotice">الأسعار المعروضة مبدئية من المسودة الأصلية وليست عرضًا نهائيًا. تحقق من العملة ونطاق كل باقة قبل نشر الموقع.</p>
+    </div></section>
+
+    <section class="content-section" id="portfolio"><div class="container"><div class="section-header"><h2 data-i18n="portfolioTitle">نماذج شكلية للتصميم</h2><p data-i18n="portfolioSub">هذه معاينات توضيحية وليست أعمال عملاء موثقة</p></div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card"><div class="portfolio-visual"><img src="images/file_0000000045c481f4ad61bc3de2b2e968.png" alt="نموذج موقع شركة" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div class="portfolio-body"><h3 data-i18n="work1Name">موقع شركة</h3><p data-i18n="work1Text">نموذج توضيحي لصفحة خدمات ومعلومات الشركة وطرق التواصل.</p><span class="sample-label" data-i18n="sampleLabel">تصميم تجريبي</span></div></article>
+        <article class="portfolio-card"><div class="portfolio-visual"><img src="images/1793111398784.jpg" alt="نموذج متجر إلكتروني" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div class="portfolio-body"><h3 data-i18n="work2Name">متجر إلكتروني</h3><p data-i18n="work2Text">تصور لواجهة منتجات؛ الدفع والطلبات يحتاجان تكاملًا فعليًا.</p><span class="sample-label" data-i18n="sampleLabel">تصميم تجريبي</span></div></article>
+        <article class="portfolio-card"><div class="portfolio-visual"><img src="images/file_00000000a40881f5bd202cf0cf6ad40f.png" alt="هدية رومانسية" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div class="portfolio-body"><h3 data-i18n="work3Name">هدية رومانسية</h3><p data-i18n="work3Text">تصميم رومانسي مميز لعرض هدية أو مفاجأة لشخص مميز.</p><span class="sample-label" data-i18n="sampleLabel">تصميم تجريبي</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="content-section" id="contact"><div class="container"><div class="cta-box"><div><h2 data-i18n="ctaTitle">عندك فكرة لموقع؟</h2><p data-i18n="ctaText">أرسل تفاصيل مشروعك لتحديد المتطلبات والخطوة التالية.</p></div><button type="button" class="btn btn-primary" data-open-modal data-i18n="ctaAction">ابدأ طلبك</button></div></div></section>
+  </main>
+
+    <section class="content-section" id="developerContact">
+      <div class="container">
+        <div class="cta-box developer-contact-box">
+          <div>
+            <h2 data-i18n="developerContactTitle">تواصل مع المطوّر</h2>
+            <p data-i18n="developerContactText">للاستفسار عن الخدمات أو طلب موقع جديد، تواصل معي مباشرة.</p>
+            <p class="developer-phone" dir="ltr">+20 111 906 4858</p>
+          </div>
+          <div class="developer-contact-actions">
+            <a class="btn btn-primary" href="https://wa.me/201119064858"
+               target="_blank" rel="noopener noreferrer"
+               data-i18n="developerWhatsApp">تواصل عبر واتساب</a>
+            <a class="btn btn-secondary" href="tel:+201119064858"
+               data-i18n="developerCall">اتصال هاتفي</a>
+          </div>
+          <p class="developer-payment-note" data-i18n="developerPaymentNote">تواصل معي لتأكيد طريقة الدفع المتاحة قبل التحويل.</p>
+        </div>
+      </div>
+    </section>
+
+  <footer class="footer"><div class="container footer-inner"><div>© <span id="year"></span> <strong data-i18n="brand">X للمواقع</strong></div><div data-i18n="footerText">تصميم وتطوير مواقع • خدمات مخصصة حسب الاتفاق</div></div></footer>
+
+  <div class="modal" id="orderModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+      <div class="modal-head"><div><h2 id="modalTitle" data-i18n="modalTitle">تفاصيل طلبك</h2><div id="modalDescription" class="muted" data-i18n="modalDescription">املأ البيانات التالية لتجهيز تفاصيل المشروع.</div></div><button type="button" class="close-btn" data-close-modal aria-label="إغلاق" data-i18n-aria="closeLabel">×</button></div>
+      <form class="order-form" id="customOrderForm">
+        <div class="field"><label for="name" data-i18n="formName">الاسم</label><input id="name" name="name" autocomplete="name" required maxlength="100" data-placeholder="namePlaceholder" placeholder="اسمك"></div>
+        <div class="field"><label for="whatsapp" data-i18n="formWhatsApp">رقم الواتساب</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required maxlength="25" pattern="[+0-9() -]{7,25}" data-placeholder="whatsappPlaceholder" placeholder="مثال: 01012345678"></div>
+        <div class="field"><label for="service" data-i18n="formService">نوع الخدمة</label><select id="service" name="service" required><option value="" data-i18n="chooseService">اختر الخدمة</option><option value="website" data-i18n="optWebsite">موقع شركة🏢</option><option value="landing" data-i18n="optLanding">موقع رومانسي ✨</option><option value="gift" data-i18n="optGift">موقع هدية 🎁</option><option value="ecommerce" data-i18n="optEcommerce">متجر إلكتروني🖥</option><option value="custom" data-i18n="optCustom">تطوير مخصوص🔧</option></select></div>
+        <div class="field"><label for="budget" data-i18n="formBudget">الميزانية المتوقعة</label><input id="budget" name="budget" maxlength="100" data-placeholder="budgetPlaceholder" placeholder="حدد سعرك "></div>
+        <div class="field wide"><label for="details" data-i18n="formDetails">تفاصيل المشروع</label><textarea id="details" name="details" required maxlength="5000" data-placeholder="detailsPlaceholder" placeholder="اوصف شكل الموقع ؟"></textarea></div>
+        <div class="field wide"><label for="deadline" data-i18n="formDeadline">الموعد المطلوب (اختياري)</label><input id="deadline" name="deadline" maxlength="100" data-placeholder="deadlinePlaceholder" placeholder="مثلًا: خلال اسبوع"></div>
+        <p class="form-status info" id="formStatus" role="status" aria-live="polite" hidden></p>
+        <p class="privacy-note" data-i18n="privacyNote">لا تدخل كلمات مرور أو بيانات دفع. لن يتم إرسال البيانات حتى يتم إعداد وسيلة استقبال الطلبات.</p>
+        <div class="form-actions"><button type="button" class="btn btn-secondary" data-close-modal data-i18n="formCancel">إلغاء</button><button type="submit" class="btn btn-primary" data-i18n="formSubmit">متابعة الطلب</button></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    "use strict";
+
+    /*
+      إعداد استقبال الطلبات:
+      ضع رابط خدمة استقبال نماذج موثوقة في FORM_ENDPOINT بعد إعدادها.
+      اتركه فارغًا إلى أن تجهز الخدمة؛ عندها لن يعرض الموقع نجاحًا كاذبًا.
+      لا تضع مفاتيح سرية أو كلمات مرور داخل هذا الملف.
+    */
+    const FORM_ENDPOINT = "https://formsubmit.co/ajax/a4311778vhhbbggf@gmail.com";
+
+    const translations = {
+      ar: {
+        brand:"X للمواقع",navFeatures:"المزايا",navPackages:"الباقات",navPortfolio:"نماذج التصميم",navContact:"تواصل",ctaOrder:"اطلب الآن",
+        eyebrow:"تصميم مواقع • تطوير مخصص • تجربة واضحة",heroTitle1:"نصنع لك",heroTitle2:"موقعًا يعبّر عن مشروعك",
+        heroText:"تصميم وتطوير مواقع للشركات والخدمات والمتاجر الإلكترونية، مع توضيح نطاق العمل قبل البدء.",ctaPrimary:"اطلب عرض سعر",ctaSecondary:"استعرض الباقات",
+        stat1:"باقات واضحة قابلة للتخصيص",stat2:"التفاصيل النهائية تُتفق قبل التنفيذ",screenTitle:"معاينة واجهة موقع",siteTitle:"موقع أعمال",siteBadge:"تصميم مخصص",siteText:"تنسيق واضح وتجربة استخدام مناسبة",reportTitle:"أقسام منظمة",floatingLabel:"مصمم لاحتياج مشروعك",floatingValue:"فكرة ← موقع",
+        featuresTitle:"ماذا ستحصل عليه؟",featuresSub:"أساسيات مهمة لموقع واضح وسهل الاستخدام",f1Title:"تنفيذ منظم",f1Text:"تحديد المتطلبات ونطاق العمل قبل بدء التطوير.",f2Title:"تصميم متناسق",f2Text:"ألوان وخطوط وتنسيق يناسب طبيعة المشروع.",f3Title:"دعم الشاشات",f3Text:"واجهة تتكيف مع الهاتف والتابلت والكمبيوتر.",f4Title:"تخصيص حسب الحاجة",f4Text:"يمكن مناقشة الوظائف المطلوبة قبل تحديد السعر النهائي.",
+        packagesTitle:"باقات مبدئية",packagesSub:"الأسعار ونطاق العمل يحتاجان تأكيدًا قبل الاتفاق",p1Name:"Starter",p1i1:"صفحة رئيسية",p1i2:"حتى 3 صفحات إضافية",p1i3:"تصميم متجاوب",p1i4:"تهيئة أساسية لعناصر SEO",p1Btn:"استفسر عن الباقة",featuredBadge:"خيار متقدم",p2Name:"Business",p2i1:"موقع تعريفي لنشاط تجاري",p2i2:"أقسام حسب الاتفاق",p2i3:"نموذج تواصل",p2i4:"تحديد الدعم بعد الاتفاق",p2Btn:"اطلب عرض سعر",p3Name:"E-Commerce",p3i1:"واجهة متجر إلكتروني",p3i2:"تحديد خيارات السلة والدفع",p3i3:"واجهة عرض المنتجات",p3i4:"التكاملات والتكاليف الخارجية تُحدد منفصلًا",p3Btn:"ناقش متجرك",currency:"ج.م",priceNotice:"الأسعار المعروضة مبدئية من المسودة الأصلية وليست عرضًا نهائيًا. تحقق من العملة ونطاق كل باقة قبل نشر الموقع.",
+        developerContactBtn:"تواصل مع المطوّر",developerContactTitle:"تواصل مع المطوّر",developerContactText:"للاستفسار عن الخدمات أو طلب موقع جديد، تواصل معي مباشرة.",developerWhatsApp:"تواصل عبر واتساب",developerCall:"اتصال هاتفي",developerPaymentNote:"تواصل معي لتأكيد طريقة الدفع المتاحة قبل التحويل.",portfolioTitle:"نماذج شكلية للتصميم",portfolioSub:"هذه معاينات توضيحية وليست أعمال عملاء موثقة",work1Name:"موقع شركة",work1Text:"نموذج توضيحي لصفحة خدمات ومعلومات الشركة وطرق التواصل.",work2Name:"متجر إلكتروني",work2Text:"تصور لواجهة منتجات؛ الدفع والطلبات يحتاجان تكاملًا فعليًا.",work3Name:"هدية رومانسية",work3Text:"تصميم رومانسي مميز لعرض هدية أو مفاجأة لشخص مميز.",sampleLabel:"تصميم تجريبي",
+        ctaTitle:"عندك فكرة لموقع؟",ctaText:"أرسل تفاصيل مشروعك لتحديد المتطلبات والخطوة التالية.",ctaAction:"ابدأ طلبك",footerText:"تصميم وتطوير مواقع • خدمات مخصصة حسب الاتفاق",
+        modalTitle:"تفاصيل طلبك",modalDescription:"املأ البيانات التالية لتجهيز تفاصيل المشروع.",closeLabel:"إغلاق",formName:"الاسم",formEmail:"البريد الإلكتروني",formWhatsApp:"رقم الواتساب",formService:"نوع الخدمة",chooseService:"اختر الخدمة",optWebsite:"موقع شركة أو خدمات",optLanding:"موقع رومانسي ✨",optGift:"موقع هدية 🎁",optEcommerce:"متجر إلكتروني",optCustom:"تطوير مخصص",formBudget:"الميزانية المتوقعة",formDetails:"تفاصيل المشروع",formDeadline:"الموعد المطلوب (اختياري)",formCancel:"إلغاء",formSubmit:"متابعة الطلب",namePlaceholder:"اكتب اسمك",whatsappPlaceholder:"مثال: 01012345678",emailPlaceholder:"name@example.com",budgetPlaceholder:"اكتب الميزانية والعملة",detailsPlaceholder:"ما الذي تريد أن يفعله الموقع؟",deadlinePlaceholder:"مثلًا: خلال شهر",privacyNote:"لا تدخل كلمات مرور أو بيانات دفع. لن يتم إرسال البيانات حتى يتم إعداد وسيلة استقبال الطلبات.",
+        missingConfig:"نموذج الطلب لم يُربط بعد بخدمة استقبال. لم يتم إرسال أي بيانات. يلزم إعداد رابط استقبال الطلبات قبل نشر الموقع لاستقبال العملاء.",sending:"جارٍ إرسال الطلب…",sendSuccess:"تم إرسال الطلب إلى خدمة الاستقبال بنجاح.",sendError:"تعذر إرسال الطلب. لم نتمكن من تأكيد وصوله؛ حاول لاحقًا أو تواصل مع صاحب الموقع.",invalidForm:"راجع البيانات المطلوبة وتأكد من كتابة رقم واتساب صحيح.",menuOpen:"فتح القائمة",menuClose:"إغلاق القائمة"
+      },
+      en: {
+        brand:"X Websites",navFeatures:"Features",navPackages:"Packages",navPortfolio:"Design Samples",navContact:"Contact",ctaOrder:"Start a Request",
+        eyebrow:"Website design • Custom development • Clear process",heroTitle1:"We build",heroTitle2:"a website for your business",
+        heroText:"Website design and development for businesses, services, and online stores, with the scope clarified before work begins.",ctaPrimary:"Request a Quote",ctaSecondary:"View Packages",
+        stat1:"Clear packages that can be tailored",stat2:"Final scope is agreed before development",screenTitle:"Website Preview",siteTitle:"Business Website",siteBadge:"Custom Design",siteText:"Clear layout and practical user experience",reportTitle:"Organized Sections",floatingLabel:"Designed around your needs",floatingValue:"Idea → Website",
+        featuresTitle:"What You Get",featuresSub:"Important foundations for a clear, usable website",f1Title:"Organized Process",f1Text:"Define requirements and scope before development.",f2Title:"Consistent Design",f2Text:"Colors, typography, and layout suited to the project.",f3Title:"Responsive Layout",f3Text:"A layout that adapts to phones, tablets, and desktops.",f4Title:"Custom Requirements",f4Text:"Discuss requested functionality before confirming the final price.",
+        packagesTitle:"Starting Packages",packagesSub:"Prices and scope must be confirmed before agreement",p1Name:"Starter",p1i1:"Homepage",p1i2:"Up to 3 additional pages",p1i3:"Responsive design",p1i4:"Basic SEO elements",p1Btn:"Ask About Package",featuredBadge:"Extended Option",p2Name:"Business",p2i1:"Informational business website",p2i2:"Sections as agreed",p2i3:"Contact form",p2i4:"Support terms agreed separately",p2Btn:"Request a Quote",p3Name:"E-Commerce",p3i1:"Online store interface",p3i2:"Cart and payment scope to be defined",p3i3:"Product display interface",p3i4:"External integrations and fees quoted separately",p3Btn:"Discuss Your Store",currency:"SAR",priceNotice:"These are preliminary prices retained from the original draft, not a final quote. Verify currency and package scope before publishing.",
+        developerContactBtn:"Contact Developer",developerContactTitle:"Contact the Developer",developerContactText:"For service questions or a new website, contact me directly.",developerWhatsApp:"Chat on WhatsApp",developerCall:"Call by Phone",developerPaymentNote:"Contact me to confirm the available payment method before transferring.",portfolioTitle:"Design Concepts",portfolioSub:"These are illustrative previews, not verified client projects",work1Name:"Company Website",work1Text:"A concept for services, company information, and contact details.",work2Name:"Online Store",work2Text:"A product interface concept; orders and payments require real integrations.",work3Name:"Romantic Gift",work3Text:"A romantic design for presenting a gift or a special surprise.",sampleLabel:"Concept design",
+        ctaTitle:"Have a website idea?",ctaText:"Send project details to define requirements and next steps.",ctaAction:"Start Your Request",footerText:"Website design and development • Scope agreed per project",
+        modalTitle:"Your Project Details",modalDescription:"Fill in the details to describe your project.",closeLabel:"Close",formName:"Name",formEmail:"Email address",formWhatsApp:"WhatsApp number",formService:"Service type",chooseService:"Choose a service",optWebsite:"Business or service website",optLanding:"Romantic website ✨",optGift:"Gift website 🎁",optEcommerce:"Online store",optCustom:"Custom development",formBudget:"Expected budget",formDetails:"Project details",formDeadline:"Target timeline (optional)",formCancel:"Cancel",formSubmit:"Continue",namePlaceholder:"Enter your name",whatsappPlaceholder:"e.g. +201012345678",emailPlaceholder:"name@example.com",budgetPlaceholder:"Enter amount and currency",detailsPlaceholder:"What should the website do?",deadlinePlaceholder:"e.g. within one month",privacyNote:"Do not enter passwords or payment details. Data will not be sent until a submission service is configured.",
+        missingConfig:"The request form is not connected to a submission service yet. No data has been sent. Configure a submission endpoint before publishing for customer requests.",sending:"Sending request…",sendSuccess:"The request was submitted successfully to the configured service.",sendError:"The request could not be sent. Receipt could not be confirmed; please try later or contact the site owner.",invalidForm:"Check the required fields and enter a valid WhatsApp number.",menuOpen:"Open menu",menuClose:"Close menu"
+      }
+    };
+    const $ = (selector, root=document) => root.querySelector(selector);
+    const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
+    let currentLang = "ar";
+    let lastFocusedElement = null;
+    const modal = $("#orderModal");
+    const form = $("#customOrderForm");
+    const statusBox = $("#formStatus");
+    const menuToggle = $("#menuToggle");
+    const mobileMenu = $("#mobileMenu");
+
+    function setLanguage(lang) {
+      if (!Object.hasOwn(translations, lang)) return;
+      currentLang = lang;
+      const dict = translations[lang];
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+      $$("[data-i18n]").forEach(el => {
+        const key = el.dataset.i18n;
+        if (Object.hasOwn(dict, key)) el.textContent = dict[key];
+      });
+      $$("[data-placeholder]").forEach(el => {
+        const key = el.dataset.placeholder;
+        if (Object.hasOwn(dict, key)) el.placeholder = dict[key];
+      });
+      $$("[data-i18n-aria]").forEach(el => {
+        const key = el.dataset.i18nAria;
+        if (Object.hasOwn(dict, key)) el.setAttribute("aria-label", dict[key]);
+      });
+      $$(".lang-btn").forEach(btn => {
+        const active = btn.dataset.lang === lang;
+        btn.classList.toggle("active", active);
+        btn.setAttribute("aria-pressed", String(active));
+      });
+      menuToggle.setAttribute("aria-label", menuToggle.getAttribute("aria-expanded") === "true" ? dict.menuClose : dict.menuOpen);
+    }
+
+    function setStatus(message, type="info") {
+      statusBox.textContent = message;
+      statusBox.className = `form-status ${type}`;
+      statusBox.hidden = false;
+    }
+
+    function openModal(service="") {
+      lastFocusedElement = document.activeElement;
+      modal.classList.add("show");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      if (service && $("#service").querySelector(`option[value="${CSS.escape(service)}"]`)) $("#service").value = service;
+      statusBox.hidden = true;
+      $("#name").focus();
+    }
+
+    function closeModal() {
+      modal.classList.remove("show");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      if (lastFocusedElement && typeof lastFocusedElement.focus === "function") lastFocusedElement.focus();
+    }
+
+    $$("[data-lang]").forEach(btn => btn.addEventListener("click", () => setLanguage(btn.dataset.lang)));
+    $$("[data-open-modal]").forEach(btn => btn.addEventListener("click", () => openModal(btn.dataset.service || "")));
+    $$("[data-close-modal]").forEach(btn => btn.addEventListener("click", closeModal));
+    modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape") {
+        if (modal.classList.contains("show")) closeModal();
+        if (mobileMenu.classList.contains("show")) setMenu(false);
+      }
+      if (e.key === "Tab" && modal.classList.contains("show")) {
+        const focusable = $$('button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),a[href]', modal).filter(el => el.offsetParent !== null);
+        if (!focusable.length) return;
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    });
+
+    function setMenu(open) {
+      mobileMenu.classList.toggle("show", open);
+      menuToggle.setAttribute("aria-expanded", String(open));
+      menuToggle.setAttribute("aria-label", open ? translations[currentLang].menuClose : translations[currentLang].menuOpen);
+      menuToggle.textContent = open ? "×" : "☰";
+    }
+    menuToggle.addEventListener("click", () => setMenu(menuToggle.getAttribute("aria-expanded") !== "true"));
+    $$("#mobileMenu a").forEach(link => link.addEventListener("click", () => setMenu(false)));
+
+    form.addEventListener("submit", async event => {
+      event.preventDefault();
+      if (!form.reportValidity()) {
+        setStatus(translations[currentLang].invalidForm, "error");
+        return;
+      }
+      if (!FORM_ENDPOINT.trim()) {
+        setStatus(translations[currentLang].missingConfig, "error");
+        return;
+      }
+      const submitButton = $('button[type="submit"]', form);
+      const originalText = submitButton.textContent;
+      submitButton.disabled = true;
+      submitButton.textContent = translations[currentLang].sending;
+      setStatus(translations[currentLang].sending, "info");
+      const payload = Object.fromEntries(new FormData(form).entries());
+      payload.language = currentLang;
+      payload.submittedAt = new Date().toISOString();
+      try {
+        const response = await fetch(FORM_ENDPOINT, {
+          method: "POST",
+          headers: {"Content-Type":"application/json", "Accept":"application/json"},
+          body: JSON.stringify(payload)
+        });
+        if (!response.ok) throw new Error("Submission failed");
+        setStatus(translations[currentLang].sendSuccess, "success");
+        form.reset();
+      } catch (error) {
+        setStatus(translations[currentLang].sendError, "error");
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+      }
+    });
+
+    $("#year").textContent = new Date().getFullYear();
+    setLanguage("ar");
+  </script>
+</body>
+</html>
